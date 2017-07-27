@@ -19,4 +19,4 @@ Writing it was buckets of fun because it required building from scratch the very
 
 Because I really needed something working fast, I never got around to placing the unit and effects data in separate text files, let alone a data base. So everything's hardcoded. And there's no GUI, so you have to manually change units and terrain of a battle you'd like to know the odds of in `Simulation` class's `concoctAmies()` method. But as I said - the layout is clear and easy to alter and play with.
 
-Also, mind it was done in 2012. For one it's all Java 6. The other thing being: AFAIK **Warbarons** haven't changed much since (I quit playing it myself, decided it was too good and ate away too much of my time), but the effects and units data (abilities, hit points etc.) are more or less out-of-date.
+Also, mind it was done in 2012. For one it's all Java 6. The other thing being: AFAIK **Warbarons** haven't changed much since (I quit playing it shortly after writing **Battle Odds**, decided it was too good and ate away too much of my time), but the effects and units data (abilities, hit points etc.) are more or less out-of-date.
