@@ -2,6 +2,7 @@ package battleodds.main;
 
 import battleodds.text.Herald;
 import battleodds.text.TextGenie;
+
 import battleodds.units.LightInfantry;
 import battleodds.units.Scout;
 
@@ -137,12 +138,13 @@ class Simulation {
 		armies[0] = new Army(); //attacker
 		armies[1] = new Army(); //defender
 
+
 		armies[0].addUnit(new LightInfantry());
 		armies[0].addUnit(new LightInfantry());
 
 		armies[1].addUnit(new Scout());
 
-		armies[0].changeRoleToAttacker();
+		armies[0].changeRoleToAttacker();  //an army is created as defender by default
 
 		armies[1].distributeWallBonus(aTerrain, armies[0]);
 

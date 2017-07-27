@@ -2,5 +2,8 @@
 *.sublime-project
 *.sublime-workspace
 
+# Java compiled files folder
+bin/
+
 # kopie robocze
 *.cpy
