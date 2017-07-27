@@ -25,6 +25,7 @@ Also, mind it was done in 2012. For one it's all Java 6. The other thing being: 
 
 After cloning the repo add `bin` directory to it and (on Linux) in a terminal run commands:
 `javac -d bin -sourcepath src src/battleodds/*/*.java`
+
 `java -cp bin battleodds.main.Launcher` (output is rather long so piping it through `less` won't be a bad idea).
 
 If you change units in `concoctArmies()` method, remember to update imports accordingly. If you'd like to add heroes and units with special abilities like *Swarm*, you have to make heads or tails of `Army` class methods and apply the effects manually. It was easy enough to know which units needed which methods to be activated when I played the game - now not so much.
