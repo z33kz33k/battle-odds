@@ -1,0 +1,6 @@
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# kopie robocze
+*.cpy
