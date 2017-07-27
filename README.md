@@ -24,6 +24,7 @@ Also, mind it was done in 2012. For one it's all Java 6. The other thing being: 
 #### HOW TO RUN
 
 After cloning the repo add `bin` directory to it and (on Linux) in a terminal run commands:
+
 `javac -d bin -sourcepath src src/battleodds/*/*.java`
 
 `java -cp bin battleodds.main.Launcher` (output is rather long so piping it through `less` won't be a bad idea).
